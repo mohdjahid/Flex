@@ -321,7 +321,12 @@ hr {
   line-height: 100px;
   padding-top: 37px;
 }
-.main-menu ul li.active a {
+/*.main-menu ul li.active a {
+  border-top: 3px solid #ec523f;
+  color: #ec523f;
+}
+*/
+.main-menu ul li:hover a{
   border-top: 3px solid #ec523f;
   color: #ec523f;
 }
@@ -360,11 +365,21 @@ iframe{
 .menu-responsive ul li.active a {
   color: #ec523f;
 }*/
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid{
+    margin-left:-200px;
+  margin-right: -200px;
+}
 
 .flexslider {
   position: relative;
   top: -96px;
 }
+
 .flexslider .overlay {
   position: absolute;
   top: 0;
@@ -382,6 +397,14 @@ iframe{
   top: 380px;
   left: 0;
 }
+
+.carousel-holder{
+    position: absolute;
+    top: 366px;
+    left: 50%;
+
+}
+
 .flexslider .slider-caption h2 {
   color: white;
   text-transform: uppercase;
@@ -406,6 +429,7 @@ iframe{
   border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: -100px;
 }
 @media screen and (min-width: 989px) {
   .flexslider .slider-caption {
