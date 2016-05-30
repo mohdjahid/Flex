@@ -13,6 +13,11 @@
         <link rel="stylesheet" href="./Flex/templatemo_misc.css">
         <link rel="stylesheet" href="./Flex/templatemo_style.css">
 
+        <link rel="stylesheet" href="BootStrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="BootStrap/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="BootStrap/js/bootstrap.min.js">
+        
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -28,6 +33,8 @@
     <script type="text/javascript" charset="UTF-8" src="./Flex/marker.js"></script>
     <script type="text/javascript" charset="UTF-8" src="./Flex/onion.js"></script>
     <script type="text/javascript" charset="UTF-8" src="./Flex/controls.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./Flex/script.js"></script>
+
 </head>
     <body>
         
@@ -42,7 +49,7 @@
                                 <li><a href="#" class="fa fa-dribbble"></a></li>
                                 <li><a href="#" class="fa fa-linkedin"></a></li>
                             </ul>
-                        </div> <!-- /.col-md-12 -->
+                        </div> 
                     </div> <!-- /.row -->
                 </div> <!-- /.container -->
                 <div class="main-header scrolled">
@@ -58,16 +65,16 @@
                                         <a href="#">Kodigo<span class="logo-text">Soft</span></a>
                                     </h1>
                                 </div> /.logo-wrapper --> 
-                                <div class="col-md-7
-                                col-md-offset-2 col-sm-10 main-menu text-right">
+                                <div class="col-md-8
+                                col-md-offset-2 col-sm-12 main-menu text-right">
                                     <div class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></div>
                                     <ul class="menu-first">
-                                        <li class=""><a href="#sTop">Home</a></li>
-                                        <li class=""><a href="#services">Services</a></li>
-                                        <li class=""><a href="#portfolio">Portfolio</a></li>
-                                        <li class=""><a href="#our-team">Team</a></li>
-                                        <li><a href="#" class="external" target="_parent" rel="nofollow">External</a></li> 
-                                        <li class="active"><a href="#contact">Contact</a></li>                                 
+                                        <li id="1" class=""><a href="#sTop">Home</a></li>
+                                        <li id="2" class=""><a href="#services">Services</a></li>
+                                        <li id="3" class=""><a href="#portfolio">Portfolio</a></li>
+                                        <li id="4"id class=""><a href="#our-team">Team</a></li>
+                                        <li><a href="#" id="5" target="_parent" rel="nofollow">External</a></li> 
+                                        <li id="6" class=""><a href="#contact">Contact</a></li>                                 
                                     </ul>                                    
                                 </div> <!-- /.main-menu -->
                             </div> <!-- /.row -->
@@ -108,7 +115,8 @@
                                 </div>
                             </li>
                         </ul>
-                    <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li></ol></div> <!-- /.flexslider -->
+                    <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li></ol></div> 
+                    .flexslider -->
                 </div> <!-- /.slider -->
             </div> <!-- /.site-slider -->
         </div> <!-- /.site-main -->
@@ -118,13 +126,13 @@
             <div class="col-md-12">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <span class="carousel-holder">
+          <!-- <span class="carousel-holder">
             <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
-          </span>
+          </span> -->
 
           <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -177,84 +185,52 @@
                         <p>Let us help you to create professional websites</p>
                     </div> <!-- /.heading-section -->
                 </div> <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-1">
-                            <div class="service-icon">
-                                <!-- <i class="fa fa-file-code-o"></i> -->
-                                <img src="Flex/WebApplicationlogo.png" class="service-img"
-                                >
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Web Application</h3>
-                                   <p>kodigo helps you to establish your business across the globe by developing commercial website. 
-                                    <br/>
-                                    <a href="ftp://www.smp.myjamia.com/" target="">our work includes</a></p> 
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-2">
-                            <div class="service-icon">
-                                <!-- <i class="fa fa-paper-plane-o"></i> -->
-                                <img src="Flex/Softwaredevlogo.png" class="service-img"
-                                >
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Software Dev.</h3>
-                                   <ul>
-                                    <li>Standalone Application</li>
-                                    <li>Enterprise Application</li>
-                                    <li>Technology used: VB.NET, JAVA</li>
-                                   </ul> 
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-3">
-                            <div class="service-icon">
-                                <!-- <i class="fa fa-institution"></i> -->
-                                <img src="Flex/webdevlogo.png" class="service-img"
-                                >
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Website Deg. & Dev.</h3>
-                                   <p>We create <a href="http://www.kosmos.myjamia.com/webconti.html">Our mobile website</a> that are responsive for any screen size on any device. Feel free to learn and use our website without restrictions.</p> 
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-4">
-                            <div class="service-icon"><!-- 
-                                <i class="fa fa-flask"></i> -->
-                                <img src="Flex/MobileReadylogo.png" class="service-img"
-                                >
-
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Mobile Application</h3>
-                                   <p>
-                                        <ul>
-                                            <li>Real-time Application Development</li>
-                                            <ol>
-                                                <li>Android Applications</li>
-                                                <li>Windows Applications</li>
-                                                <li>Cross Platform</li>
-                                            </ol>
-                                        </ul>
-                                   </p> 
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                </div> <!-- /.row -->
+                
+                <div class="row service-decortaion">
+                    <div class="col-md-4 col-sm-10 service-content"><br><br>
+                        <div class="inner-service">
+                            <h3>Web Development</h3>
+                            <p>KodigoSoft helps you to establish your business across the globe by developing commercial website. 
+                            <!-- <a href="ftp://www.smp.myjamia.com/" target="">our work includes</a> --></p> 
+                        </div>
+                        <div class="inner-service">
+                            <h3>Software Development</h3>
+                            <ul>
+                                <li>Standalone Application</li>
+                                <li>Enterprise Application</li>
+                                <li>Technology used: VB.NET, JAVA</li>
+                            </ul> 
+                        </div>
+                        <div class="inner-service">
+                            <h3>Web Development</h3>
+                            <p>KodigoSoft helps you to establish your business across the globe by developing commercial website. 
+                            <!-- <a href="ftp://www.smp.myjamia.com/" target="">our work includes</a> --></p> 
+                        </div><br><br>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4 col-sm-10 service-content"><br><br>
+                        <div class="inner-service">
+                            <h3>Website Deg. & Dev.</h3>
+                            <p>We create <!-- <a href="http://www.kosmos.myjamia.com/webconti.html"> -->Our mobile website that are responsive for any screen size on any device. Feel free to learn and use our website without restrictions.</p> 
+                        </div>
+                        <div class="inner-service">
+                            <h3>Mobile Application</h3>
+                            <p>
+                                <ul>
+                                    <li>Real-time Application Development</li>
+                                    <ul>
+                                        <li>Android Applications</li>
+                                        <li>Windows Applications</li>
+                                        <li>Cross Platform</li>
+                                    </ul>
+                                </ul>
+                            </p> 
+                        </div>
+                        <div class="inner-service">
+                            <h3>Website Deg. & Dev.</h3>
+                            <p>We create <!-- <a href="http://www.kosmos.myjamia.com/webconti.html"> -->Our mobile website that are responsive for any screen size on any device.</p> 
+                        </div><br><br>
+                    </div>
+                </div>
             </div> <!-- /.container -->
         </div> <!-- /#services -->
 
@@ -474,18 +450,18 @@
                             </li>
                             <li>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">HTML 80%</div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">HTML 5 90%</div>
                                 </div>
                             </li>
                             <li>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">WordPress 65%</div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">CSS3 75%</div>
               
                                 </div>
                             </li>
                             <li>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Marketing 80%</div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">Responsive 85%</div>
                                 </div>
                             </li>
                         </ul>
@@ -510,21 +486,21 @@
                     
                     <div class="col-md-5">
                         <div class="contact-form">
-                            <form method="post" name="contactform" id="contactform">
+                            <form>
                                 <p>
-                                    <input name="name" type="text" id="name" placeholder="Your Name">
+                                    <input name="name" type="text" id="name" placeholder="Your Name" required>
                                 </p>
                                 <p>
-                                    <input name="email" type="text" id="email" placeholder="Your Email"> 
+                                    <input name="email" type="text" id="email" placeholder="Your Email" required> 
                                 </p>
                                 <p>
-                                    <input name="email" type="number" id="phone" placeholder="Contact Number"> 
+                                    <input name="email" type="number" id="phone" placeholder="Contact Number" required> 
                                 </p>
                                 <p>
-                                    <input name="subject" type="text" id="subject" placeholder="Subject"> 
+                                    <input name="subject" type="text" id="subject" placeholder="Subject" required> 
                                 </p>
                                 <p>
-                                    <textarea name="comments" id="comments" placeholder="Message"></textarea>    
+                                    <textarea name="comments" id="comments" placeholder="Message" required></textarea>    
                                 </p>
                                 <input type="submit" class="mainBtn" id="submit" value="Send Message">
                             </form>
